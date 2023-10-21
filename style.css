@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    border: 2px solid #93C572;
+
+
+}
+
+.a1 {
+    height: 25px;
+    background-color:#93C572;
+    color: black;
+    text-align: center;
+
+}
+
+.a2 {
+    height: 25px;
+    background-color: lightskyblue;
+    color: black;
+    text-align: center;
+}
+
+.a3 {
+    height: 25px;
+    background-color:#93C572;
+    color: black;
+    text-align: center;
+}
+
+.a4 {
+    width: 30%;
+    height: 450px;
+    color: black;
+    float: left;
+    background-color: lightskyblue;
+    border: 2px solid lightcyan;
+}
+
+.a5 {
+    height: 25px;
+    background-color: lightskyblue;
+    color: black;
+    text-align: center;
+
+}
+
+.a6 {
+    height: 25px;
+    background-color: #93C572;
+    color: black;
+    text-align: center;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 35%;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    background-color: lightskyblue;
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    background-color: lightskyblue;
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.a9 {
+
+    background-color:#93C572;
+    color: black;
+    text-align: center;
+}
+
+.a10 {
+    height: 25px;
+    background-color: lightskyblue;
+    color: black;
+    text-align: center;
+}
+
+/* .container{
+    display: grid;
+    grid-template-columns:repeat(2,auto);
+}
+.item{
+    background-color: red;
+    padding: 15px 8px;
+} 
+ .a7{
+    width: 30%;
+    height: 250px;
+    color: black;
+    float: left;
+}
+.a8{
+    width: 15%;     
+    color: black;
+    float:right;
+
+} 
+
+/* .row{
+
+    display: grid;
+    grid-template-columns:repeat(2,auto);
+
+} */
