@@ -12,10 +12,8 @@ body {
 
 }
 
-.a1 {
-    height: 25px;
-    color: black;
-    background-color: #93C572;
+.main-layout {
+
     padding: 1rem;
     text-align: center;
     min-height: 100vh;
@@ -25,26 +23,37 @@ body {
     gap: 0.5rem;
 }
 
-.a2 {
+.header {
     height: 25px;
-    margin-top: 50px;
     background-color: lightskyblue;
     color: black;
     text-align: center;
     grid-column: 1/2;
 }
+.main-layout h4{
 
-.a3 {
+    margin-top: 5px;
     height: 25px;
+    background-color: #93C572;
+    color: black;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+.a3 {
+
+    height: 25px;
+    margin-bottom: 350px;
     background-color: #93C572;
     color: black;
     text-align: center;
 }
 
 .a4 {
+
     width: 40%;
     height: 465px;
     color: black;
+    text-align: center;
     float: left;
     background-color: lightskyblue;
     border: 2px solid rgb(29, 202, 202);
@@ -55,7 +64,7 @@ body {
 
     width: 60%;
     height: 35px;
-    margin-top: 5px;
+    margin-top: 10px;
     background-color: lightskyblue;
     color: black;
     text-align: center;
@@ -111,7 +120,7 @@ body {
 }
 
 .section h3 {
-    color: white;
+    color: black;
 }
 
 .main {
@@ -124,20 +133,15 @@ body {
 
 }
 
-.a1,
-.aside,
-.flex-container div,
-.a9,
-.a10 {
+.main-layout,.aside,.flex-container div,.a9,.a10 {
 
     background-color: rgb(197, 232, 243);
     border: 2px solid black;
-    margin-top: 5px;
-    padding: 1.5rem;
+    padding: 0.8rem;
 }
 
 .a9 {
-    height: 10px;
+    height: 35px;
     width: 60%;
     margin-top: 5px;
     background-color: #93C572;
@@ -151,7 +155,7 @@ body {
 .a10 {
 
     width: 60%;
-    height: 205px;
+    height: 300px;
     margin-top: 5px;
     background-color: lightskyblue;
     color: black;
@@ -159,6 +163,7 @@ body {
     float: right;
 
 }
+
 
 /* Create two equal columns that floats next to each other */
 /* .column {
